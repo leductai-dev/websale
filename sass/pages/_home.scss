@@ -1,0 +1,80 @@
+/* .section-about{
+    background-color: $color-grey-light-1;
+    padding: 25rem 0;
+    margin-top: -25rem;
+}
+
+.section-skills{
+    padding: 20rem 0;
+    background-image: linear-gradient(to right bottom,
+    rgba($color-primary-light, .8),
+    rgba($color-primary-dark, .8)),
+    url("../img/background2.jpg");
+    background-size: cover;
+    position: relative;
+    clip-path: ellipse(70% 50% at 50% 50%);
+    margin-top: -20rem;
+}
+
+.section-courses{
+    background-color: $color-grey-light-1;
+    padding: 25rem 0 10rem 0;
+    margin-top: -20rem;
+}
+
+.section-testimonials {
+    position: relative;
+    padding: 5rem 0 5rem 0;
+}
+
+// pages/_home.scss
+.section-enroll{
+    padding: 10rem 0;
+    background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+}
+
+.enroll {
+    background-image: 
+     radial-gradient( 150% 200% ellipse at -15%,
+         rgba($color-white, .8) 50%,
+         transparent 50%),
+     url("../img/background3.jpg");
+    background-size: cover;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
+    border-radius: 5rem;
+    height: 50rem;
+
+    &__form{
+        padding: 6rem;
+        width: 50%;
+    }
+}
+
+ */
+ .section-highlights{
+     width: 100%;
+     max-width: 1235px;
+     margin: 0 auto;
+     margin-top: 31px;
+     margin-bottom: 49px;
+
+ }
+ .theme{
+    margin-top: 63px;
+
+ }
+ .miture-theme{
+     margin-top: 50px;
+ }
+ .section-about{
+     margin-top: 53px;
+     
+ }
+
+ .wrap{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+
+}

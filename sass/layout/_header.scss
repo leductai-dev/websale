@@ -1,0 +1,118 @@
+.header {
+  height: 541px;
+  background-image: url("../../image/Banner.png");
+  width: 100%;
+  padding-left: 88px;
+  padding-right: 140px;
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-top {
+  padding-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logo {
+    margin-right: 77px;
+  }
+  & nav {
+    flex-grow: 1;
+  }
+}
+ul.nav-list {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 0;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  & .nav-item {
+    & a {
+      color: #ffffff;
+    }
+  }
+}
+.tool {
+  margin-left: 77px;
+  &__btn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    & img {
+      width: 59px;
+      height: 37px;
+    }
+    &--info {
+      margin-right: -13px;
+    }
+  }
+}
+.header-content {
+    font-size: 18px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 45px;
+  color: white;
+  h1 {
+    margin-bottom: 10px;
+  }
+  .header-desciption {
+    font-style: normal;
+    line-height: 21px;
+    margin-bottom: 25px;
+    .hilight-number{
+        font-size: 27px;
+        color: rgb(255, 238, 0);
+        font-weight: 600;
+    }
+  }
+  .sup-description{
+    font-size: 16px;
+}
+}
+.search{
+    height: 50px;
+    margin: 0 auto;
+    width: 95%;
+    box-sizing: border-box;
+    max-width: 824px;
+    padding: 11px 21px 10px 41px;
+    background-color: #ffffff;
+    font-size: 18px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+
+    form{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__input{
+        flex-grow: 1;
+        &::-webkit-input-placeholder{
+            color:#0A2E6C;
+    
+        }
+        border:none;
+        background-color: transparent;
+        outline:none;
+    }
+    &__btn{
+        border:none;
+        outline:none;
+        background-color: transparent;
+        img{
+            width: 30px;
+            height: 29px;
+        }
+        &:active, &:focus{
+            outline:none;
+
+        }
+    }
+
+}

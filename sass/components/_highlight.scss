@@ -1,0 +1,38 @@
+
+div.container-1235{
+    width: 100%;
+    max-width: 1235px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    
+
+}
+.highlight{
+    width: calc((100% - 18px)/3);
+    box-shadow: #CCCCCC 0px 2px 2px 1px;
+    padding: 13px 10px 18px;
+    text-align: center;
+    &__img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 12px;
+    }
+    &__title{
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 13px;
+
+    }
+
+    &__description{
+        font-size: 13px;
+        line-height: 15px;
+        margin-bottom: 35px;
+        
+    }
+    
+}
