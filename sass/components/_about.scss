@@ -1,66 +1,66 @@
-.about-head{
+.about-head {
     width: 100%;
     padding-top: 77px;
     padding-bottom: 77px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
     background-color: $color-blue;
 }
-.about{
+.about {
     font-weight: bold;
     text-align: center;
     color: $color-white;
 
-    &__number{
+    &__number {
         font-size: 24px;
     }
-    &__title{
+    &__title {
         font-size: 17px;
-        
     }
-    &__icon{
+    &__icon {
         margin-top: 15px;
         font-size: 24px;
-        & img{
+        & img {
             width: 92px;
             margin: 0 auto;
-
-
         }
     }
 }
-.about-main{
+.about-main {
     position: relative;
     width: 100%;
-    & .about-picture{
+    & .about-picture {
         width: 100%;
         height: 760px;
-        & img{
+        & img {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
     }
-    & .about-info{
+    & .about-info {
         position: absolute;
         top: 62px;
-        right: 56px;
         padding: 50px 31px 39px;
         border-radius: 15px;
         background-color: $color-white-about;
         box-sizing: border-box;
-        width: 100%;
+        width: 90%;
         max-width: 760px;
-        &__title{
+        right: 50px;
+        @include max-width-1023px {
+            right: 0px;
+        }
+        &__title {
             font-size: 24px;
             font-weight: bold;
             margin-bottom: 35px;
         }
-        &__detail{
-            font-size: 16px;
+        &__detail {
+            margin-bottom: 18px;
+            font-size: 18px;
             font-weight: 600;
             margin-bottom: 18px;
+            line-height: 20px;
+            text-align: justify;
         }
     }
 }

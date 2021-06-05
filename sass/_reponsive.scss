@@ -1,23 +1,19 @@
-@media only screen and (min-width: 576px)  and (max-width: 767px) {
-}
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  nav {
-    display: none;
-  }
+
+@media only screen  and (max-width: 1023px) {
   header.header {
     padding-left: 50px;
     padding-right: 50px;
   }
   .header-top .logo {
     margin-left: -50px;
+    margin-right: -20px;
   }
   .about-main .about-info {
     position: absolute;
     top: 50px;
-    right: 50px;
     padding: 50px 31px 39px; 
-    left: 50px;
-    width: unset;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .about-main .about-picture {
     width: 100%;
@@ -51,7 +47,72 @@
 }
 
 
+.header-title{
+
+}
+.header-desciption{
+  display: none;
+
+}
+.hilight-number{
+
 }
 
+.search__input{
+
+}
+.search__btn{
+
+}
+.sup-description{
+
+}
+
+
+
+}
+.web-list{
+  overflow-x: scroll;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.web{
+  margin-right: 15px;
+}
+
+
+@media only screen and (min-width: 576px)  and (max-width: 767px) {
+
+.about-main .about-info {
+  position: absolute;
+  padding: 50px 31px 39px; 
+  margin: 50px auto;
+  
+  }
+}
+
+
+
+
 @media only screen and (max-width: 575px) {
+  .web-list{
+    overflow-x: scroll;
+  }
+  .web{
+    margin-right: 15px;
+
+  
+  }
+
+.about-main .about-info {
+    position: absolute;
+    top: 50px;
+    padding: 50px 31px 39px; 
+    margin:  auto;
+    
+    }
+}
+.web-list::-webkit-scrollbar{
+  display: none;
+  
 }

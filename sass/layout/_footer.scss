@@ -10,10 +10,25 @@
     justify-content: space-around;
     padding-top: 28px;
     padding-bottom: 28px;
+    & .contact-logo{
+        @include max-width-767px{
+            margin: 0 auto;
+        }
+    }
 }
 .contact{
     display: flex;
     align-items: center;
+    @include media-breakpoint-down(md){
+        margin-bottom: 15px;
+        margin-left: 130px;
+    }
+    @include media-breakpoint-down(sm){
+        margin-left: 65px;
+    }
+    @media(max-width:375px){
+        margin-left: 0;
+    }
     &__icon{
         width: 50px;
         height: 50px;
@@ -48,10 +63,12 @@
     background-color: $color-blue-background2;
 }
 .footer-category{
-    display: grid;
-    grid-template-columns: 3fr 2fr 2fr;
     padding-top: 28px;
     padding-bottom: 150px;
+    @include media-breakpoint-down(md){
+        grid-template-columns: 3fr 2fr 2fr;
+        grid-template-rows: 2;
+    }
 }
 .category{
     color: white;

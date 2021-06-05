@@ -13,3 +13,21 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+@mixin max-width-1023px{
+    @media screen and (max-width: 1023px){
+        @content
+    };
+}
+
+@mixin max-width-767px{
+    @media screen and (max-width: 767px){
+        @content
+    };
+}
+@mixin max-width-575px{
+    @media screen and (max-width: 575px){
+        @content
+    }
+}
+
